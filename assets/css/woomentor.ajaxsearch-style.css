@@ -1,0 +1,61 @@
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+}
+
+/* search css */
+
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_option,
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_form_input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #161b2d;
+  background-color: #fff;
+  background-image: none;
+  /* border: 1px solid #ccc; */
+  /* height: calc(3rem + 2px); */
+  height: 3rem;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_formcusbtn {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  /* height: calc(3rem + 2px); */
+  border-radius: 0;
+  background: #161b2d;
+  color: #fff;
+  border: none;
+  line-height: 1.5;
+  padding: 0.375rem 0.7rem;
+  height: 3.25rem;
+}
+
+.woomentor_ajax_search_form_layoutone
+  .woomentor_ajax_search_formcusbtn:not(:disabled):not(:disabled) {
+  cursor: pointer;
+}
+
+.woomentor_ajax_search_form_layoutone
+  .woomentor_ajax_search_form_option_category {
+  position: relative;
+}
+
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_form_searcharea {
+  position: relative;
+  width: 100%;
+}
+
+.woomentor_ajax_search_form_layoutone .woomentor_ajax_search_form_input {
+  padding-left: 15px;
+}
